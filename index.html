@@ -23,10 +23,25 @@
         </div>
 
         <ul class="nav-list">
-            <li class="input-parents"><a href="#"><input  type="search" placeholder="search" name="search" id="search" /></a> <i class="fa-solid fa-magnifying-glass"></i></li>
+            <figure class="searce-input-parents">
+              <li class="input-parents"><a href="#"><input  type="search" placeholder="search" name="search" id="search" /></a> <i class="fa-solid fa-magnifying-glass"></i></li>
+            </figure>
           <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT US</a></li>
-          <li><a href="#">PRODUCTS</a></li>
+          <li><a href="#products">ABOUT US</a></li>
+             
+
+          <!-- dropdown menu -->
+          <li class="dropdown-menu-bar"><a href="#">PRODUCTS
+            <i class="fa-solid fa-caret-down"></i> </a>
+            <ul class="dropdown-manu">
+            <li><a href="#">products1</a></li>
+            <li><a href="#">products2</a></li>
+            <li><a href="#">products3</a></li>
+            <li><a href="#">products4</a></li>
+            <li><a href="#">products5</a></li>
+          </ul>
+         
+          </li>
           <li><a href="#contact">COTUCT US</a></li>
         </ul>
       </nav>
@@ -70,7 +85,7 @@
     </section>
 
     <!-- this shoes section -->
-    <section class="shoes-section">
+    <section class="shoes-section" id="products">
        <div class="shoes-title">
            <h2>Shoes</h2>
            <p>See All</p>
